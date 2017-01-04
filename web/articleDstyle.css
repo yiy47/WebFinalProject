@@ -1,0 +1,15 @@
+body{
+    background-image: url("http://cdn-media-2.lifehack.org/wp-content/files/2016/03/05114255/abc-healthyfood.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 80%;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10%;
+    border-radius: 20px;
+    padding: 5%;
+}

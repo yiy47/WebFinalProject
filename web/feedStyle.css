@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    padding: 10px;
+}
+
+.feed{   
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+    overflow: hidden;
+    font-family: Mont-serrat, sans-serif;
+}
+
+/*For larger screens*/
+@media only screen and (min-width: 500px ){
+    .feed{
+        width: 30%;
+    }
+}
+
+.textColor{
+     color: #008080; 
+}

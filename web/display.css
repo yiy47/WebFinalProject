@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 11, 2016, 3:57:56 PM
+    Author     : yaoyi
+*/
+.user-row{
+    margin-bottom: 14px;
+}
+
+.user-row:last-child{
+    margin-bottom: 0;
+}
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+html{
+    background-color: #CBC6C5;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+
+            .navbar-inverse{
+                   background-color: #333;
+                   color: #fff;
+                   z-index: 10;
+                   overflow: visible;
+            }
+
+
+.navbar-inverse .container-fluid .navbar-header a:hover{background-color: #00C0C0;}
+.navbar-inverse .container-fluid .navbar-right a:hover{background-color: #00C0C0;}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+h{
+  font-size: 30px;
+  font-weight: bold;
+}
+

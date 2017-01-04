@@ -1,0 +1,70 @@
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar-inverse{
+    position: absolute;
+    width: 100%;   
+    background-color: #333;
+    color: #fff;
+    z-index: 10;
+}
+
+
+.navbar-inverse .container-fluid .navbar-header a:hover{background-color: #00C0C0;}
+.navbar-inverse .container-fluid .navbar-right a:hover{background-color: #00C0C0;}
+
+.choice{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  z-index: -1;
+}
+
+/*For mobile*/
+.top-page-div{
+    height: 50%;
+    width:100%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    float: left;
+}
+
+@media only screen and (min-width: 500px ){
+    .top-page-div{
+        height:100%;
+        width: 50%;
+    }
+}
+
+#top{
+  background-color: #00C0C0;
+}
+
+#bottom{
+  background-color: #FA0080;
+}
+
+span{
+  margin:0;
+  position:absolute;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.top-page-button{
+    background: transparent;
+    color: #fff;
+    border: solid;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.top-page-button:hover{
+    background-color: #fff;
+    color: cornflowerblue;
+}
